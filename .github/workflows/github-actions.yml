@@ -16,7 +16,6 @@ jobs:
           - name: Run unit test
             run: ./unit-test.sh
     full-test:
-<<<<<<< HEAD
         container: cuaesd/aesd-autotest:assignment1
         runs-on: ubuntu-latest
         steps:
